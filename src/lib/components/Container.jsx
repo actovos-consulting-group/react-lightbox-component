@@ -131,7 +131,7 @@ export default class Container extends React.Component {
     return (
       <div className='lightbox-backdrop' ref='container'>
         <div className='lightbox-btn-close'>
-          <Button icon="back-arrow" onClick={props.toggleLightbox} size={ 34 } hasRipple={ true } />
+          <Button icon="close" onClick={props.toggleLightbox} size={ 34 } hasRipple={ true } />
         </div>
         <div className='lightbox-title-content'>
           <div className='lightbox-title'>

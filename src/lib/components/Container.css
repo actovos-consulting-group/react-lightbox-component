@@ -41,7 +41,7 @@ html.lightbox-open {
 
 .lightbox-btn-close {
   position: fixed;
-  left: 0px;
+  right: 0px;
   z-index: 2;
 }
 
